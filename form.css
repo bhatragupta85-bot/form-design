@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+    
+
+body{
+    
+    background-image: url("https://i.pinimg.com/originals/17/19/45/171945e4ca2fe034728c9720a10747e4.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 100vh;
+    /* background-color: rgb(23, 79, 107); */
+    
+
+
+}
+
+h1{
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 28px;
+    margin-top: 25px;
+    font-size: 70px;
+    color: rgb(15, 14, 14);
+}
+button{
+    color: white;
+    background-color: red;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    
+    border: transparent;
+    border-radius: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 110px;
+    padding-right: 110px;
+    font-weight: bolder;
+    cursor: pointer;
+    
+
+}
+#message{
+    font-weight: bold;
+    margin-top: 15px;
+    font-family: cursive;
+    margin-left: 100px;
+}
+.big-container{
+    display: flex;
+    flex-wrap: wrap;
+    background: rgba(225,255,255,0.15);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255,255,255,0.25);
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;  
+    padding-left: 80px;
+    padding-bottom: 70px;
+    padding-top: 45px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.35);
+    gap: 100px;
+    margin-bottom: 150px;
+    
+}
+input{
+    margin-top: 20px;
+    margin-left: 45px;
+    border-radius: 15px;
+    padding: 15px;
+    border-style: double;
+    font-size: 20px;
+}
+.welcome{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin-left: 62px;
+    margin-top: 10px;
+    font-weight: 200;
+}
+.picture{
+    
+    background-color: rgb(18, 16, 15);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    padding: 20px;
+    width:auto;
+    height: auto;
+    transition: transform 0.3s ease;
+    margin-top: 15px;
+    
+    
+    
+}
+img {
+    width: ;
+    height: auto;
+    border-radius: 10px;
+}
